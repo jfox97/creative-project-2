@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.page-wrap {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+footer {
+	margin-top: auto;
+	padding: 30px 20px 10px 20px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #353531;
+}
+
+footer a:hover {
+	color: #EC4E20;
+}
