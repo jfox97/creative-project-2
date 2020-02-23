@@ -4,10 +4,107 @@
 	padding: 0;
 }
 
+body {
+	font-family: 'Merriweather', ;
+	font-weight: 400;
+	font-size: 18px;
+	background-color: #F7F7F7;
+	color: #333333;
+	padding: 20px;
+}
+
+h1, h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 28px;
+	color: #6B7FD7;
+}
+
+h4 {
+	font-size: 26px;
+	text-transform: capitalize;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+input[type=text] {
+	width: 100%;
+	max-width: 800px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	border: 1px solid #c9c9bd;
+	border-radius: 3px;
+	padding: 2px 10px;
+	margin: 10px 0px;
+}
+
+input[type=submit] {
+	font-size: 14px;
+	font-weight: 700;
+	background-color: #4C2A85;
+	color: #f8f9fa;
+	border: 0px;
+	border-radius: 5px;
+	padding: 8px 25px;
+	margin-top: 5px;
+}
+
 .page-wrap {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+}
+
+.entry {
+	margin: 20px 5px;
+}
+
+.word {
+	font-size: 36px;
+	text-transform: capitalize;
+}
+
+.pronunciations {
+	margin: 15px 0px;
+}
+
+.audio {
+	color: #6B7FD7;
+	text-decoration: none;
+}
+
+.audio:hover {
+	color: #BCEDF6;
+}
+
+.pronunciation-details {
+	margin: 10px 15px;
+}
+
+.definitions {
+	margin: 15px 0px;
+}
+
+.definition {
+	margin: 10px 15px;
+}
+
+.definition-head {
+	margin: 10px 0px;
+}
+
+.definition-details {
+	margin: 10px 0px;
 }
 
 footer {
@@ -16,10 +113,10 @@ footer {
 }
 
 footer a {
+	color: #6B7FD7;
 	text-decoration: none;
-	color: #353531;
 }
 
 footer a:hover {
-	color: #EC4E20;
+	color: #BCEDF6;
 }
