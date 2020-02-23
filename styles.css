@@ -49,6 +49,7 @@ input[type=text] {
 }
 
 input[type=submit] {
+	display: block;
 	font-size: 14px;
 	font-weight: 700;
 	background-color: #4C2A85;
@@ -63,6 +64,8 @@ input[type=submit] {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	max-width: 800px;
+	margin: 0px auto;
 }
 
 .entry {
@@ -119,4 +122,11 @@ footer a {
 
 footer a:hover {
 	color: #BCEDF6;
+}
+
+@media only screen and (min-width: 800px) {
+	
+	h1 {
+		margin: 0 auto;
+	}
 }

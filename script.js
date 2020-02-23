@@ -83,7 +83,7 @@ document.getElementById("word-submit").addEventListener("click", function(event)
 			}
 			results += "</div>";
 			
-			results += "</div>";
+			results += "</div><hr />";
 		}
 		
 		document.getElementById("results").innerHTML = results;
