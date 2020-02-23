@@ -32,6 +32,12 @@ h5 {
 	font-size: 20px;
 }
 
+hr {
+	border-color: #4C2A85;
+	background-color: #4C2A85;
+	color: #4C2A85;
+}
+
 form {
 	margin-bottom: 20px;
 }
@@ -57,7 +63,7 @@ input[type=submit] {
 	border: 0px;
 	border-radius: 5px;
 	padding: 8px 25px;
-	margin-top: 5px;
+	margin: 5px 0px 20px 0px;
 }
 
 .page-wrap {
@@ -87,7 +93,7 @@ input[type=submit] {
 }
 
 .audio:hover {
-	color: #BCEDF6;
+	color: #4C2A85;
 }
 
 .pronunciation-details {
@@ -121,7 +127,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #BCEDF6;
+	color: #4C2A85;
 }
 
 @media only screen and (min-width: 800px) {

@@ -18,7 +18,7 @@ document.getElementById("word-submit").addEventListener("click", function(event)
 	})
 	.then(json => {		
 		let entries = json.entries
-		let results = "";
+		let results = "<hr>";
 		
 		//TODO: remove
 		console.log(json);
